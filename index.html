@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unnati Sharma - Personal Website</title>
+  <link rel="stylesheet" href="st.css">
+</head>
+<body>
+  <header>
+    <div class="profile-container">
+      <img src="your-photo.jpg" alt="Profile Picture" class="profile-pic">
+      <h1>Unnati Sharma</h1>
+      <p>Pre-final year Computer Science student | Data Structures & Algorithms | Machine Learning</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="about">
+      <h2>About Me</h2>
+      <p>
+        Pre-final year Computer Science student with strong problem-solving skills and proficiency in Data Structures and Algorithms. Worked on machine learning, predictive analytics, and software development projects.
+      
+    </p>
+    <p>
+        I am a 20-year-old student pursuing a degree in Computer Science and Engineering with a specialization in Business Systems at VIT Vellore. Along with my academic pursuits, I am passionate about fitness and love spending time at the gym to stay active and healthy. Currently, I live in Gurugram, a bustling city known for its vibrant atmosphere and proximity to Delhi. My interests extend beyond just academics, as I enjoy exploring new technologies, learning about business systems, and developing my skills to make an impact in the tech industry.
+    </p>
+    </section>
+
+    <section class="internship">
+      <h2>Internship</h2>
+      <h3>Python Intern, Techoution (Summer Intern) | June 2024 - July 2024</h3>
+      <ul>
+        <li>Developed Python automation tool for generating proposal decks using Google Slides API.</li>
+        <li>Developed a Google Slides extension to build decks from chat input with sections like problem, cost, and charts.</li>
+        <li>Added feature for dynamic logo and image creation based on chat input.</li>
+      </ul>
+    </section>
+
+    <section class="projects">
+      <h2>Key Projects</h2>
+      <h3>Stock Price Forecasting Using Information from Google Trends</h3>
+      <ul>
+        <li>Studied the relationship between value/effect of news and lagged stock price returns using linear regression.</li>
+        <li>Conjectured that price followed Random Walk Process using Augmented Dickey-Fuller Test.</li>
+        <li>Implemented algorithm based on paper (Selene et al) to quantify effect of news article sentiments on returns.</li>
+        <li>Achieved coefficient value 36.43 and R-Squared 0.316 after removing all outliers from regression analysis.</li>
+      </ul>
+
+      <h3>Forecasting Using Time Series Analysis</h3>
+      <ul>
+        <li>Decomposed stationary differenced log-returns price series to Trend, Seasonal and Residual Components.</li>
+        <li>Determined the p, q value to be 1, 1 respectively by plotting PACF, ACF plot for log differenced returns series.</li>
+        <li>Computed the least RSS value 0.285 for ARIMA model amongst AR, MA, ARIMA time series models.</li>
+        <li>Achieved 14.2% annualized returns for trading strategy based on forecasts with an optimal window size of 30.</li>
+      </ul>
+    </section>
+
+    <section class="skills">
+      <h2>Technical Skills</h2>
+      <table>
+        <tr>
+          <th>Programming Languages</th>
+          <td>C, C++, Python, Java, SQL, MySQL</td>
+        </tr>
+        <tr>
+          <th>Libraries</th>
+          <td>PyTorch, TensorFlow, Numpy, Pandas, Scikit-Learn, Matplotlib, Seaborn, Plotly, OpenCV</td>
+        </tr>
+        <tr>
+          <th>Concepts</th>
+          <td>Data Structures & Algorithms, Time Series Analysis, Forecasting, Object-Oriented Programming</td>
+        </tr>
+        <tr>
+          <th>Exposure</th>
+          <td>HTML, CSS, R, MATLAB, Git</td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="experience">
+      <h2>Social Experience</h2>
+      <h3>Volunteer for Riviera, 2023 VIT, Vellore</h3>
+      <ul>
+        <li>Managed sales of Riviera and contributed to event sponsorship acquisition and promotional activities, enhancing outreach and revenue.</li>
+      </ul>
+      <h3>VIT Health Club VIT, Vellore</h3>
+      <ul>
+        <li>Organized multiple events for the health club, enhancing members' experiences and building a strong community.</li>
+      </ul>
+      <h3>IEEE-Computer Society, VIT VIT, Vellore</h3>
+      <ul>
+        <li>Participated in multiple workshops and training programs organized by our club, fostering my interest in various computer science fields and competencies.</li>
+      </ul>
+    </section>
+
+    <section class="courses">
+      <h2>Relevant Courses</h2>
+      <ul>
+        <li>Data Structure and Algorithms</li>
+        <li>Database Management System</li>
+        <li>Introduction to Machine Learning</li>
+        <li>Introduction to Deep Learning</li>
+        <li>Foundations of Data Science</li>
+        <li>Artificial Intelligence</li>
+      </ul>
+    </section>
+
+    <section class="contact">
+      <h2>Contact Me</h2>
+      <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br>
+
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Contact: unnatisharma212@gmail.com | Phone: +91-9990682963</p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/unnati-sharma-176586268" target="_blank">linkedin.com/in/unnati-sharma-176586268</a></p>
+  </footer>
+</body>
+</html>
